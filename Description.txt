@@ -1,0 +1,35 @@
+Example1.png shows a browser window in predefined size. There is a left pane, a middle pane and a right pane. Left and right pane exist in the main pane (grey color). The main pane includes some elements (photos) that scroll up and down. A click on the white circle reveals the right pane. A click on the red circle closes the right pane.
+
+Sizes:
+
+Main pane: 1280 x 1024px
+Left & Right pane: 350 x 1024px
+Elements: 260 x 160px and 260 x 80px
+White and Red Circle: 80 x 80px
+
+Example2.png shows a browser window in a smaller size (700px minimum width). The left pane size doesn't change. The right pane is closed by a click on the red circle. The main pane is resized and the elements inside it moved to occupy the available space from the resized browser window.
+
+Example3.png shows the same browser window with 700px minimum width. A click on the white circle shows the right pane on top of the elements. A click on the red circle hides the right pane. The elements remain intact when the right pane is open or close.
+
+This is a responsive layout that needs to adjust to fit in different screen sizes and/or different window sizes with maximum (1280px) and minimum (700px) widths.
+
+1) When the browser window is minimized it should not  be smaller than 700px (350px from the left pane and 350px from the right pane)
+
+2) When the browser window is minimized 50% of its width and the right pane is open then the right pane will automatically cover all the space from the main pane. The red circle should be centered automatically in the new width.
+
+3) When the right pane is closed (with a click on the red circle) the center pain should expand and take over the available space on the right. Meaning that the purple bubbles will move to the space on the right
+
+4) When you click on the white circle on the left pane or the red circle on the right pane, the right pane will appear or disappear with an animation (easy-in or easy-out or spring).
+
+For example, clicking on the red circle will make the right pane hide with an animation from its position to the right of she screen. The animation can use any curve, like easy-in or easy-out or spring).
+
+Clicking on the white circle will open the right pane again using the same animation cute but with a different orientation (from right to left).
+
+While this is happening the main pane should adjust its width and expand its content (the bubbles) on the available space depending if the right pane is open or close
+
+5) One of the bubbles will be an image in the center pane. The image will appear as centered cropped in the bubble. Clicking on it will open the image in full screen with a nice animation (easy-in or easy-out or spring) on a layer on top of the main screen (not a new window). Clicking on the big image will close the image using the same animation back to the position of the original bubble.
+
+Attached is a sample of the bubble with the image inside it will look like and also the sample image for the test.
+Note that the image should be dynamically adjust and cropped in the bubble. Eg it can be replaced with another image.
+
+Thank you for your time and hope to hear from you soon. We are excited with the possibility to have you as part of our the team.
