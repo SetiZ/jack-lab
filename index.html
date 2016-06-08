@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
         <title>Jack's Labs</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <div class="main-pane">
             <div class="left-pane">
-                <div class="white dot"></div>
+                <div class="white dot" onclick="showRight()"></div>
             </div>
             <div class="middle-pane">
                 <div class="elem left"></div>
@@ -20,7 +21,7 @@
                 <div class="elem right small"></div>
             </div>
             <div class="right-pane">
-                <div class="red dot"></div>
+                <div class="red dot" onclick="hideRight()"></div>
             </div>
         </div>
     </body>

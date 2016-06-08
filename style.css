@@ -14,7 +14,7 @@ body {
     width: 350px;
     height: 1024px;
     background-color: #4A90E2;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
 }
@@ -23,15 +23,17 @@ body {
     width: 350px;
     height: 1024px;
     background-color: #50E3C2;
-    position: absolute;
-    right: 0;
+    position: fixed;
+    left: 930px;
     top: 0;
 }
 
 .main-pane .middle-pane {
     position: relative;
+    height: 1024px;
     margin: 0 350px;
     padding: 20px;
+    overflow: auto;
 }
 
 .dot {
