@@ -77,8 +77,7 @@ body {
 }
 
 .image {
-    background-image: url("JS_Test_Assets/Element2b.png");
-    background-repeat: no-repeat;
+    background-image: url("JS_Test_Assets/element2b.png");
 }
 
 .small {
