@@ -127,14 +127,15 @@ body {
 
 @media screen and (max-width: 1024px) { 
     .right-middle {
-        margin-left: 350px;
+        /*margin-left: 350px;*/
+        float: none;
     }
 }
 
 
 @media screen and (max-width: 700px) {
     .right-middle {
-        float: none;
+        
         margin-left: 0;
     }
 }
